@@ -5,6 +5,7 @@
 ## Guides
 
 * [Reverse shell](guides/reverse-shell.md)
+* [Transferring files](guides/transferring-files.md)
 
 ## Quick reference
 
