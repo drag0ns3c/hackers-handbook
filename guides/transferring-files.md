@@ -53,6 +53,14 @@ The above command will launch a server listening on port `8000` and transfer all
 busybox httpd -f -p 8000
 ```
 
+### HTTPG
+
+[HTTPG](https://github.com/drag0ns3c/httpg) is a cross platform binary that will serve directory contents and also provide an information endpoint that will expose details about the machine it is running on.
+
+```bash
+httpg -port 8000
+```
+
 ## Downloading files
 
 ...TBC
