@@ -13,7 +13,7 @@ Google can be a powerful tool in conducting research against a target. In additi
 |  `intext` | `intext:password` or `intext:"default password" | Filters results that contain the term `default password` |
 | `cache` | `cache:bbc.co.uk` | Only search for results in cached versions of `bbc.co.uk` |
 | `intitle` | `intitle:"index of"` | Filter results where `index of` appears in the page title |
-| `allintitle` | `allintitle:"index of" | Same as `intitle` but must contain all of the words |
+| `allintitle` | `allintitle:"index of"` | Same as `intitle` but must contain all of the words |
 | `intext` | `intext:hacking` | Filter results where the term `hacking` appears within the content of a page |
 | `allintext` | `allintext:"nginx config"` | Same as `intext` but all the terms have to match |
 | `inanchor` | `inanchor:secret` | Searches for anchor (`<a>`) text for the word `secret` |
