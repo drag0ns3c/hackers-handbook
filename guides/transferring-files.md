@@ -62,9 +62,9 @@ httpg -port 8000
 
 ## Downloading files
 
-On linux systems, you have good choice of tools to use.
+### Linux
 
-### Curl
+#### Curl
 
 ```bash
 curl https://example.com/file.zip -o copy-file.zip
@@ -72,21 +72,35 @@ curl https://example.com/file.zip -o copy-file.zip
 
 If you want curl to be quiet use the `-s` flag or if you want to see the request and response, use `-v`.
 
-### Wget
+#### Wget
 
 Wget is another command line tool that has a lot more options compared to `curl`, for example resuming downloads.
 
 ```bash
+# basic usage for downloading a file
 wget https://example.com/file.zip
-wget -c https://example.com/file.zip # resume/continue download
+
+# resume/continue download
+wget -c https://example.com/file.zip
 ```
 
 Wget can also handle things like basic authentication, retry count, user agent manipulation plus a whole lot more.
 
-### Axel
+#### Axel
 
 [Axel](https://github.com/axel-download-accelerator/axel) is a download accelerator and really good for downloading large files quickly. It does this by downloading a file concurrently using a user defined number of connections.
 
 ```bash
+# download using 4 connections
 axel -n 4 https://example.com/file.zip
+```
+
+### Windows
+
+#### Powershell
+
+This uses a `cmdlet` but it can be slow.
+
+```powershell
+Invoke-WebRequest -Uri "https://example.com/file.zip" -OutFile "file.zip"
 ```
