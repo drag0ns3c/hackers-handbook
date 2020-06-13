@@ -4,6 +4,8 @@
 
 ## Guides
 
+* [OSINT](guides/osint/README.md)
+  * [Google](guides/osint/google.md)
 * [Reverse shell](guides/reverse-shell.md)
 * [Transferring files](guides/transferring-files.md)
 

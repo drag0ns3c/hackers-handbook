@@ -10,7 +10,6 @@ On the machine that you want to transfer files from, you'll need to run a web se
 
 This will spawn a web server listening on port `8000` from the current directory.
 
-
 ```bash
 # Python 2
 python -m SimpleHTTPServer
@@ -31,7 +30,7 @@ php -S 0.0.0.0:8000
 
 ### Ruby
 
-The following was tested working with Ruby `2.7.1` and should work with versions > `1.9.2`
+The following was tested working with Ruby `2.7.1` and should work with versions &gt; `1.9.2`
 
 ```bash
 ruby -run -e httpd . -p 8000
@@ -64,3 +63,4 @@ httpg -port 8000
 ## Downloading files
 
 ...TBC
+
