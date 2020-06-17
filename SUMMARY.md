@@ -4,6 +4,7 @@
 
 ## Guides
 
+* [Pen Test Methodology](./guides/pentesting-steps.md)
 * [OSINT](guides/osint/README.md)
   * [Google](guides/osint/google.md)
 * [Reverse shell](guides/reverse-shell.md)
